@@ -65,7 +65,7 @@
             <div class="md text">Hercules Popular Uni</div>
         </div>
         
-    <!-- --------------- DESCRIPTION ------------------------------------------>
+    <!-- --------------------------------- DESCRIPTION ------------------------------------------>
 
     <div class="captions right stage">
 
@@ -79,7 +79,7 @@
     </div>
     </div>
 
-
+<!------------------------------------------ JAVASCRIPT -------------------------------------->
 
     <script>
         let slideIndex = 1;
@@ -94,8 +94,20 @@
             lastSlide = slideIndex;
             showSlides(slideIndex += n);
         }
+        function currentSlide(n) {
+            lastSlide = slideIndex;
+            showSlides(slideIndex = n);
+        }
         function change(c){
             bg.style.backgroundColor = c;
+        }
+
+        function showSlides(n){
+            slides[lastSlide - 1].classList.remove("fade");
+            slides[lastSlide - 1].classList.add("fadeOut");
+            dir -= 20;
+            holder.style.transform = 'rotate(' + dir + 'deg)';
+            
         }
     </script>
 </body>
