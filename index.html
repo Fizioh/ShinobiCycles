@@ -107,8 +107,14 @@
             slides[lastSlide - 1].classList.add("fadeOut");
             dir -= 20;
             holder.style.transform = 'rotate(' + dir + 'deg)';
-            
         }
+        setTimeout(() => {
+            var i;
+            if(n > slides.length){
+                slideIndex = 1;
+            }
+        })
+        
     </script>
 </body>
 
