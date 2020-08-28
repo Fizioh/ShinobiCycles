@@ -37,7 +37,15 @@ body {
     margin: auto;
     overflow: hidden;
 }
-
+.mySlides{
+    display: none;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.mySlides img{
+    width: 100%;
+}
 nav {
     height: 90px;
     width: 100%;
