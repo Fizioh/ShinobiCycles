@@ -31,9 +31,7 @@ body {
     height: 100vh;
     padding: 8px;
 }
-.hide{
-    display: none;
-}
+
 .fade {
     display: block;
     -webkit-animation-name: fade;
