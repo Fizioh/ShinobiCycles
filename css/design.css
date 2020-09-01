@@ -16,7 +16,13 @@ body {
     overflow: hidden;
     padding: 50px;
 }
-
+.clasr{
+    color: black;
+}
+.description{
+    font-size: 1.2em;
+    color: black;
+}
 .btn {
     border: none;
     border-radius: 5px;
