@@ -338,3 +338,28 @@ a:hover {
         transform: rotate3d(0, 0, 1, -45deg);
     }
 }
+
+/****** ----------------------------- RESPONSIVE ------------------------ **************** */
+
+@media screen and (max-width: 640px) {
+
+    .slideshow-container{
+        max-width: 100%;
+        position: relative;
+        margin-left: 5%;
+        margin-top: 25%;
+        overflow: hidden;
+    }
+    .leftEdge{
+        margin-top: -80px;
+    }
+    .rightEdge{
+        margin-top: 40%;
+
+    }
+    .stage{
+        margin-right: 30px;
+    }
+
+
+}
